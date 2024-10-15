@@ -12,7 +12,7 @@ setup(
   py_modules=['charminal'],
   author='pwnwas',
   author_email='sulaimanfawwazak@gmail.com',
-  url='https://github.com/sulaimanfawwazak/pwnwas_emoji',
+  url='https://github.com/sulaimanfawwazak/Charminal',
   classifiers=[
     'Programming Language :: Python :: 3',
     'License :: OSI Approved :: MIT License',
