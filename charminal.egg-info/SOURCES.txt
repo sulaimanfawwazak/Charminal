@@ -1,0 +1,7 @@
+README.md
+charminal.py
+setup.py
+charminal.egg-info/PKG-INFO
+charminal.egg-info/SOURCES.txt
+charminal.egg-info/dependency_links.txt
+charminal.egg-info/top_level.txt
