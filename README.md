@@ -99,5 +99,14 @@ Try:
     find_emoji(keyword)
 ```
 
+## Contribution
+Contributions are welcome! Feel free to open an issue or create a pull request on [GitHub](https://github.com/sulaimanfawwazak/Charminal).
+
+## License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+## Author
+Charminal is developed and maintained by Sulaiman Fawwaz Abdillah Karim. You can reach me at sulaimanfawwazak@gmail.com.
+
 ## Behind The Logo
 The name of this package is "Charminal", a combination of "Charm" and "Terminal". The name "Charminal" itself is similar to a Pokemon character, "Charmander". Hence, I decided to make the logo to be the combination of "Charmander" and "Terminal". Though it looks simple, but subjectively I kinda like it!. Hope you like it too!
