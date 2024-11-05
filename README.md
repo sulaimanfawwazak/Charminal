@@ -1,10 +1,10 @@
 # Charminal (Charm Terminal)
 
-![Charminal-demo](./charminal-demo.gif)
+![Charminal-demo](./assets/charminal-demo.gif)
 
 Charminal is a simple and fun Python library designed to enhance your terminal output with emojis, colors, and styles! Whether you're developing scripts or building command-line tools, Charminal can help you make your terminal messages more vibrant and expressive.
 
-![Charminal-logo](./Charminal-v01.png)
+![Charminal-logo](./assets/Charminal-v01.png)
 
 ## Features
 
