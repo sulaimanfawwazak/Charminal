@@ -1,2 +1,28 @@
+# Personal/dev stuff
 linkedin/
 playground.py
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Distribution/build artifacts
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+*.spec
+
+# macOS cruft
+.DS_Store
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Logs
+*.log
