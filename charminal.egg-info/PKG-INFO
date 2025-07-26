@@ -1,6 +1,6 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: charminal
-Version: 1.0.0
+Version: 1.1.0
 Summary: A library containing commonly used emojis for terminal messages
 Home-page: https://github.com/sulaimanfawwazak/Charminal
 Author: pwnwas
@@ -9,12 +9,21 @@ Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: summary
 
 # Charminal (Charm Terminal)
 
+![Charminal-demo](./assets/charminal-demo.gif)
+
 Charminal is a simple and fun Python library designed to enhance your terminal output with emojis, colors, and styles! Whether you're developing scripts or building command-line tools, Charminal can help you make your terminal messages more vibrant and expressive.
 
-![Charminal-logo](./Charminal-v01.png)
+![Charminal-logo](./assets/Charminal-v01.png)
 
 ## Features
 
