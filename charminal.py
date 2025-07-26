@@ -33,9 +33,23 @@ COLOR_BLUE = "\033[34m"
 COLOR_MAGENTA = "\033[35m"
 COLOR_CYAN = "\033[36m"
 
+# ANSI escape codes for different colors
+TEXT_BLACK = "\x1b[30m"
+BACKGROUND_RED = f"\x1b[41m{TEXT_BLACK}"
+BACKGROUND_GREEN = f"\x1b[42m{TEXT_BLACK}"
+BACKGROUND_YELLOW = f"\x1b[43m{TEXT_BLACK}"
+BACKGROUND_BLUE = f"\x1b[44m{TEXT_BLACK}"
+BACKGROUND_MAGENTA = f"\x1b[45m{TEXT_BLACK}"
+BACKGROUND_CYAN = f"\x1b[46m{TEXT_BLACK}"
+BACKGROUND_WHITE = f"\x1b[47m{TEXT_BLACK}"
+
 # ANSI escape codes for text styles
 STYLE_BOLD = "\033[1m"
+STYLE_ITALIC = "\x1b[3m"
 STYLE_UNDERLINE = "\033[4m"
+STYLE_BLINK = "\033[5m"
+STYLE_STRIKETHROUGH = "\x1b[9m"
+STYLE_HIDDEN = "\x1b[8m"
 
 # ANSI escape code to reset all colors and styles
 RESET = "\033[0m"
@@ -76,9 +90,23 @@ COLORS_DICT = {
   'COLOR_CYAN' : "\033[36m"
 }
 
+BACKGROUNDS_DICT = {
+  "BACKGROUND_RED": f"\x1b[41m{TEXT_BLACK}",
+  "BACKGROUND_GREEN": f"\x1b[42m{TEXT_BLACK}",
+  "BACKGROUND_YELLOW": f"\x1b[43m{TEXT_BLACK}",
+  "BACKGROUND_BLUE": f"\x1b[44m{TEXT_BLACK}",
+  "BACKGROUND_MAGENTA": f"\x1b[45m{TEXT_BLACK}",
+  "BACKGROUND_CYAN": f"\x1b[46m{TEXT_BLACK}",
+  "BACKGROUND_WHITE": f"\x1b[47m{TEXT_BLACK}"
+}
+
 STYLES_DICT = {
-  'STYLE_BOLD' : "\033[1m",
-  'STYLE_UNDERLINE' : "\033[4m"
+  "STYLE_BOLD": "\033[1m",
+  "STYLE_ITALIC": "\x1b[3m",
+  "STYLE_UNDERLINE": "\033[4m",
+  "STYLE_BLINK": "\033[5m",
+  "STYLE_STRIKETHROUGH": "\x1b[9m",
+  "STYLE_HIDDEN": "\x1b[8m"
 }
 
 def show_emojis():
@@ -90,6 +118,11 @@ def show_colors():
   print(f'Available colors:')
   for name, color in COLORS_DICT.items():
     print(f'  >> {color}{name}{RESET}')
+
+def show_backgrounds():
+  print(f'Available backgrounds:')
+  for name, background in BACKGROUNDS_DICT.items():
+    print(f'  >> {background}{name}{RESET}')
 
 def show_styles():
   print(f'Available styles:')
@@ -126,7 +159,49 @@ def help_me():
   print(f"""Try:
     `show_emojis()`,
     `show_colors()`, 
+    `show_backgrounds()`, 
     `show_styles()`,
     `show_usage(),
     `find_emoji(keyword)`
   """)
+
+def max_verstappen():
+  print(f"{BACKGROUND_RED}          {RESET}")
+  print(f"{BACKGROUND_WHITE}          {RESET}")
+  print(f"{BACKGROUND_BLUE}          {RESET}")
+
+def cyka_blyat():
+  print(f"{BACKGROUND_WHITE}          {RESET}")
+  print(f"{BACKGROUND_BLUE}          {RESET}")
+  print(f"{BACKGROUND_RED}          {RESET}")
+
+def bomboclat():
+  print(f"{BACKGROUND_GREEN}   {RESET}{BACKGROUND_WHITE}    {RESET}{BACKGROUND_GREEN}   {RESET}")
+  print(f"{BACKGROUND_GREEN}   {RESET}{BACKGROUND_WHITE}    {RESET}{BACKGROUND_GREEN}   {RESET}")
+  print(f"{BACKGROUND_GREEN}   {RESET}{BACKGROUND_WHITE}    {RESET}{BACKGROUND_GREEN}   {RESET}")
+
+def bonjour():
+  print(f"{BACKGROUND_BLUE}  ", end="");print(f"{BACKGROUND_WHITE}  ", end="");print(f"{BACKGROUND_RED}  ", end="")
+  print(f"{BACKGROUND_BLUE}  ", end="");print(f"{BACKGROUND_WHITE}  ", end="");print(f"{BACKGROUND_RED}  ", end="")
+  print(f"{BACKGROUND_BLUE}  ", end="");print(f"{BACKGROUND_WHITE}  ", end="");print(f"{BACKGROUND_RED}  ", end="")
+
+def konnichiwa():
+  print(f"{BACKGROUND_WHITE}           {RESET}")
+  print(f"{BACKGROUND_WHITE}    {RESET}", end="");print(f"{BACKGROUND_RED}   {RESET}", end="");print(f"{BACKGROUND_WHITE}    {RESET}")
+  print(f"{BACKGROUND_WHITE}           {RESET}")
+
+def india():
+  print(f"{BACKGROUND_YELLOW}           {RESET}")
+  print(f"{BACKGROUND_WHITE}    {RESET}", end="");print(f"{BACKGROUND_BLUE}   {RESET}", end="");print(f"{BACKGROUND_WHITE}    {RESET}")
+  print(f"{BACKGROUND_GREEN}           {RESET}")
+
+def sweden():
+  print(f"{BACKGROUND_BLUE}   {RESET}{BACKGROUND_YELLOW}  {RESET}{BACKGROUND_BLUE}     {RESET}")
+  print(f"{BACKGROUND_YELLOW}          {RESET}")
+  print(f"{BACKGROUND_BLUE}   {RESET}{BACKGROUND_YELLOW}  {RESET}{BACKGROUND_BLUE}     {RESET}")
+
+def austria():
+  print(f"{BACKGROUND_RED}          {RESET}")
+  print(f"{BACKGROUND_WHITE}          {RESET}")
+  print(f"{BACKGROUND_RED}          {RESET}")
+
